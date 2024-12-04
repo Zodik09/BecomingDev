@@ -1,3 +1,7 @@
+// “Fizz” if i is divisible by 3,
+// “Buzz” if i is divisible by 5
+// “FizzBuzz” if i is divisible by 3 and 5,
+
 var output = [];
 var start = 1
 function fizzBuzz() {
