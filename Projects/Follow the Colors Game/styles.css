@@ -1,21 +1,25 @@
+/* General styling for body */
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #011f3f;
 }
 
+/* Title styling */
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
-  margin:  2%;
-  color: #FEF2BF;
+  margin: 2%;
+  color: #fef2bf;
 }
 
+/* Center the button container */
 .container {
   display: block;
   width: 50%;
   margin: 5% auto;
 }
 
+/* General styling for game buttons */
 .btn {
   margin: 10px 20px;
   display: inline-block;
@@ -25,11 +29,13 @@ body {
   border-radius: 20%;
 }
 
+/* Styling for game over state */
 .game-over {
   background-color: red;
   opacity: 0.8;
 }
 
+/* Button colors */
 .red {
   background-color: red;
 }
@@ -46,6 +52,7 @@ body {
   background-color: yellow;
 }
 
+/* Button pressed animation */
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
