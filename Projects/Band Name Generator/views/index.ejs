@@ -1,12 +1,10 @@
-<!-- Step 3 Add Header -->
-
-
-<!-- Step 2 - If an adjective and noun are sent to this ejs file, 
-    Change the h1 to show the adjective and noun.
-    But when the user first goes on the website and there is no adjective and noun, 
-    Show the default h1 below -->
+<%- include('partials/header.ejs') %>
+<h1>
+  <% if(locals.randomAdjective && locals.randomNoun){ %> <%= randomAdjective %> <%=
+  randomNoun %> <% } else { %> Welcome to the Band Name Generator 🤟. <% } %>
+</h1>
 
 <form action="/submit" method="POST">
-  <input type="submit" value="Generate Name">
+  <input type="submit" value="Generate Name" />
 </form>
-<!-- Step 3 Add Footer -->
+<%- include('partials/footer.ejs') %>
